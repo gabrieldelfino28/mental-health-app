@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SaudeMentalApp" parent="Theme.Material3.DayNight">
+        <!-- Theme.Material3.DayNight -->
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#8BFFB5</item>
+        <item name="colorSecondary">#FF5EF3BF</item>
+        <item name="android:statusBarColor" >?attr/colorPrimaryVariant</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.MaterialComponents.Dark.ActionBar</item>
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.MaterialComponents.Light</item>
+        <item name="actionBarStyle">@style/Widget.MaterialComponents.Light.ActionBar.Solid</item>
+        <item name="floatingActionButtonStyle">@style/Widget.MaterialComponents.FloatingActionButton</item>
+        <!-- enable window content transitions -->
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+    <style name="Theme.SaudeMentalApp" parent="Base.Theme.SaudeMentalApp" />
+    <style name="Theme.SaudeMentalApp.DayNight.NoActionBar" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#FF5EF3BF</item>
+        <item name="colorSecondary">#FF5EF3BF</item>
+    </style>
+</resources>

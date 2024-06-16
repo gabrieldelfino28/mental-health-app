@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuStyles2"
+        android:icon="@drawable/ic_menu"
+        android:title=""
+        app:showAsAction="ifRoom|withText">
+        <menu>
+            <item
+                android:id="@+id/item_home_colab"
+                android:icon="@drawable/ic_home"
+                android:title="@string/home"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/item_perfil_colab"
+                android:icon="@drawable/ic_account_c"
+                android:title="@string/perfil"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/item_artigos_colab"
+                android:icon="@drawable/ic_jornals"
+                android:title="@string/meu_artigos"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/item_contato"
+                android:icon="@drawable/ic_contact_view"
+                android:title="@string/contato"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/item_logoff"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/log_off" />
+            app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>

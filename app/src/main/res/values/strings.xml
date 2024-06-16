@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Saude Mental App</string>
+    <string name="diario">Meu Diário</string>
+    <string name="perfil">Meu Perfil</string>
+    <string name="artigos">Artigos</string>
+    <string name="login">Login</string>
+    <string name="login_title">Login</string>
+    <string name="cadastro">Cadastro</string>
+    <string name="senha">Senha</string>
+    <string name="nome">Nome</string>
+    <string name="email">E-mail</string>
+    <string name="espec">Especialidade</string>
+    <string name="titulo">Título</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="errLogin">Usuario e/ou Senha incorretos!</string>
+    <string name="home">Home</string>
+    <string name="meu_artigos">Meus Artigos</string>
+    <string name="isCollab">Colaborador?</string>
+    <string name="rbYes">Sim</string>
+    <string name="rbNo">Não</string>
+    <string name="successLogin">Login bem-sucedido!</string>
+    <string name="sucessCadastro">Cadastro bem-sucedido!</string>
+    <string name="btnDelete">Excluir</string>
+    <string name="btnUpdate">Atualizar</string>
+    <string name="welcome">Bem Vindo ao App,\n%s!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="msg_colab">Obrigado por se tornar um Colaborador!</string>
+    <string name="exp_colab">Obrigado!\n\nComo Coloborador, você pode contribuir com a manutenção de artigos sobre saúde mental!</string>
+    <string name="contato">Contato</string>
+    <string name="duvida">Dúvidas</string>
+    <string name="dev_email">Para mais dúvidas entre em contato:\nE-mail: gabriel.delfino@fatec.sp.gov.br</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- TODO: Pagina CRUD -->
+    <string name="title">Título</string>
+    <string name="data">Data</string>
+    <string name="actionButton">action</string>
+    <string name="conteudo_diario">Como foi seu dia?</string>
+    <string name="conteudo_artigo">Escreva aqui!</string>
+    <string name="sentimento">Algum sentimento forte?</string>
+    <string name="fonte">Fonte: </string>
+    <!-- TODO: Toasts -->
+    <string name="msg_cad">Entrada Adicionada ao Diário!</string>
+    <string name="msg_upd">Entrada Atualizada no Diário!</string>
+    <string name="msg_del">Entrada Excluída do Diário!</string>
+    <string name="art_cad">Artigo Cadastrado com êxito!</string>
+    <string name="art_upd">Artigo Atualizado com êxito!</string>
+    <string name="art_del">Artigo Excluído com êxito!</string>
+    <string name="article_placeholder">placeholder</string>
+    <string name="set_font">Fonte: %s</string>
+    <string name="set_conteudo">Selecione um artigo!</string>
+    <string name="log_off">LogOut</string>
+    <string name="loggin_out">Realizando LogOut…</string>
+</resources>

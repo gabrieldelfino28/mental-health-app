@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        app:showAsAction="ifRoom|withText"
+        android:icon="@drawable/ic_menu"
+        android:id="@+id/menuStyles"
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/item_home_pessoa"
+                android:icon="@drawable/ic_home"
+                android:title="@string/home"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/item_perfil_pessoa"
+                android:icon="@drawable/ic_account_c"
+                android:title="@string/perfil"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/item_diario"
+                android:icon="@drawable/ic_books"
+                android:title="@string/diario"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/item_artigos_pessoa"
+                android:icon="@drawable/ic_article"
+                android:title="@string/artigos"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/item_logoff"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/log_off" />
+                app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>
